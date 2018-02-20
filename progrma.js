@@ -4,7 +4,7 @@ function dist(p1, p2){
 
   mag = Math.sqrt(((p1[0]-p2[0])*(p1[0]-p2[0]))+((p1[1]-p2[1])*(p1[1]-p2[1])));
 
-  ang = (180*Math.atan2(p2[0], p2[1]))/3.14
+  ang = (180*Math.atan2(p2[0], p2[1]))/Math.PI;
 
   return [mag, ang];
 }
