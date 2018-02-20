@@ -1,10 +1,8 @@
 function dist(p1, p2){
 
-  let mag, ang, sen, i = 1;
+  let mag, ang;
 
   mag = Math.sqrt(((p1[0]-p2[0])*(p1[0]-p2[0]))+((p1[1]-p2[1])*(p1[1]-p2[1])));
-
-  sen = (p1[1]-p2[1])/mag;
 
   ang = (180*Math.atan2(p2[0], p2[1]))/3.14
 
